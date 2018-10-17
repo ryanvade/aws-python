@@ -1,0 +1,23 @@
+{
+  "name": "aws-python",
+  "version": "1.0.0",
+  "main": "src/js/index.js",
+  "author": "Ryan Owens",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cytoscape": "^3.2.17",
+    "cytoscape-cose-bilkent": "^4.0.0"
+  },
+  "devDependencies": {
+    "cytoscape-popper": "^1.0.2",
+    "laravel-mix": "^2.1.14"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  }
+}
