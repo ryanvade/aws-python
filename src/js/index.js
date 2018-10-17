@@ -57,6 +57,91 @@ var cy = window.cy = cytoscape({
         'label': 'data(label)',
         'shape': 'rectangle'
       }
+    },
+    {
+      selector: '.internetgateway',
+      style: {
+        'background-image': '/static/icons/aws/Networking%20&%20Content%20Delivery/NetworkingContentDelivery_AmazonVPC_internetgateway.svg',
+        'width': 50,
+        'height': 50,
+        'background-width': 50,
+        'background-height': 50,
+        'background-fit': 'none',
+        'label': 'data(label)',
+        'shape': 'rectangle'
+      }
+    },
+    {
+      selector: '.internetedge',
+      style: {
+        'width': 2,
+        'line-color': 'blue'
+      }
+    },
+    {
+      selector: '.securitygroup',
+      style: {
+        'background-image': '/static/icons/aws/Compute/Compute_AmazonVPC_VPNgateway.svg',
+        'width': 50,
+        'height': 50,
+        'background-width': 50,
+        'background-height': 50,
+        'background-fit': 'none',
+        'label': 'data(label)',
+        'shape': 'rectangle'
+      }
+    },
+    {
+      selector: '.s3bucket',
+      style: {
+        'background-image': '/static/icons/aws/Storage/Storage_AmazonS3_bucket.svg',
+        'width': 50,
+        'height': 50,
+        'background-width': 50,
+        'background-height': 50,
+        'background-fit': 'none',
+        'label': 'data(label)',
+        'shape': 'rectangle'
+      }
+    },
+    {
+      selector: '.user',
+      style: {
+        'background-image': '/static/icons/aws/General/General_user.svg',
+        'width': 50,
+        'height': 50,
+        'background-width': 50,
+        'background-height': 50,
+        'background-fit': 'none',
+        'label': 'data(label)',
+        'shape': 'rectangle'
+      }
+    },
+    {
+      selector: '.accesskey',
+      style: {
+        'background-image': '/static/icons/aws/Security%20Identity%20&%20Compliance/SecurityIdentityCompliance_IAM.svg',
+        'width': 50,
+        'height': 50,
+        'background-width': 50,
+        'background-height': 50,
+        'background-fit': 'none',
+        'label': 'data(label)',
+        'shape': 'rectangle'
+      }
+    },
+    {
+      selector: '.internet',
+      style: {
+        'background-image': '/static/icons/aws/General/General_Internet.svg',
+        'width': 50,
+        'height': 50,
+        'background-width': 50,
+        'background-height': 50,
+        'background-fit': 'none',
+        'label': 'data(label)',
+        'shape': 'rectangle'
+      }
     }
   ]
 });
